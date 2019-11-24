@@ -16,10 +16,10 @@ and open the template in the editor.
         
         
         <?php
-         $servername = "192.168.10.2";
-        $username = "17335nirmal";
-        $password = "17335nirmal";
-        $dbname ="17335nirmal";
+         $servername = "<ADD YOUT IP ADDRESS>";
+        $username = "<ADD YOUR USERNAME>";
+        $password = "<ADD YOUR PASSWORD>";
+        $dbname ="<ADD YOUR DATABASE NAME>";
         $conn =new mysqli($servername,$username,$password,$dbname)or die("Connect failed: %s\n". $conn -> error);
                 $sql= "SELECT * FROM stock";
                 $result=$conn->query($sql);
@@ -40,10 +40,10 @@ and open the template in the editor.
         <input type="submit" name="bt_sale" />
         <br>
         <?php
-        $servername = "192.168.10.2";
-        $username = "17335nirmal";
-        $password = "17335nirmal";
-        $dbname ="17335nirmal";
+        $servername = "<ADD YOUT IP ADDRESS>";
+        $username = "<ADD YOUR USERNAME>";
+        $password = "<ADD YOUR PASSWORD>";
+        $dbname ="<ADD YOUR DATABASE NAME>";
         $conn =new mysqli($servername,$username,$password,$dbname)or die("Connect failed: %s\n". $conn -> error);
     
         if(isset($_POST["bt_sale"])) 
