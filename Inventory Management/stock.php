@@ -21,10 +21,10 @@ and open the template in the editor.
         <br>
         <input type="submit" name="bt_stk" />
         <?php
-        $servername = "192.168.10.2";
-        $username = "17335nirmal";
-        $password = "17335nirmal";
-        $dbname ="17335nirmal";
+        $servername = "<ENTER YOUR IP ADDRESS>";
+        $username = "<ENTER YOUR IP USERNAME>";
+        $password = "<ENTER YOUR PASSWORD>";
+        $dbname = "<ENTER YOUR DATABASE NAME>";
         $conn =new mysqli($servername,$username,$password,$dbname)or die("Connect failed: %s\n". $conn -> error);
     
         if(isset($_POST["bt_stk"])) 
