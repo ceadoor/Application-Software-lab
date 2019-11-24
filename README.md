@@ -9,7 +9,9 @@ University: APJ Abdul Kalam Technological University
 
 ## Content
 
-- **[Inventory Stock Managment ](Inventory%20Management)**
+- **[Inventory Managment ](Inventory%20Management)**
+
+- **[Elective  Student Managment ](Elective%20Student%20Management)**
   
 ## Requirements
 
